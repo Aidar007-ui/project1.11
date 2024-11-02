@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+.top__header{
+    background: url(image/Rectangle\ \(1\).png) center/cover no-repeat;
+}
+.top__header ul{
+    display: flex;
+    justify-content: end;
+    color: white;
+    column-gap: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 40px 200px 40px 0 ;
+}
+.border{
+    border: 1px solid #a1a1a1;
+    width: 1250px;
+    height: 0px;
+}
+.mini__border{
+    border: 1px solid #fff;
+    width: 107px;
+    height: 0px;
+    margin-left: 535px;
+}
+.center__header{
+    text-align: center;
+    color: white;
+    margin: 319px;
+    padding-bottom: 335px;
+}
+.center__header p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.center__header h1{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 134%;
+    margin: 20px 0 50px; 
+}
+.center__header button{
+    font-weight: 500;
+    font-size: 16px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 33px;
+    background: rgb(41, 117, 198);
+    color: white;
+}
+.apps{
+    text-align: center;
+    margin-top: -220px;
+    position: relative;
+}
+.apps h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    margin-bottom: 50px;
+}
+.apps p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+}
+.apps ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 27px;
+    margin-top: 70px;
+    column-gap: 155px;
+}
+.apps h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    margin-left: -35px;
+    position: relative;
+    padding-bottom: 12px;
+}
+.apps h5::before{
+    content: '';
+    background: url(image/Ellipse.png) center/cover no-repeat;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: -80px;
+    top: -40px;
+}
+.apps h5::after{
+    content: '';
+    background: url(image/Ellipse\ \(1\).png) center/cover no-repeat;
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    left: -70px;
+    top: -30px;
+}
+ul img{
+    position: absolute;
+    top: 265px;
+    margin-left: -175px;
+}
+.apps button{
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background: rgb(41, 117, 198);
+    border: none;
+    margin-top: 55px;
+    margin-bottom: 105px;
+}
+.in__development{
+    background: #f6f6f8;
+    padding: 152px 121px 143px 105px;
+}
+.in__development h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+}
+.fish{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: gray;
+    padding: 40px 0 30px;
+}
+.in__development a{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: blue;
+}
+.in__development img{
+    margin-left: 500px;
+    margin-top: -375px;
+}
+.development__border{
+    border: 1px solid gainsboro;
+    width: 1010px;
+    height: 0px;
+    margin-top: 90px;
+}
+.in__development ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    position: relative;
+}
+.in__development ul h3{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 146%;
+    margin-left: 25px;
+}
+.in__development ul p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: gray;
+}
+.in__development ul h3::before{
+    content: '';
+    background: url(image/web-programming.png) center/cover no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    margin-left: -30px;
+}
+.video{
+    background: url(image/Rectangle\ \(3\).png) center/cover no-repeat;
+    width: 1250px;
+    height: 570px;
+    text-align: center;
+    position: relative;
+}
+.video h3{
+    padding: 58px 0 56px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    color: #fff;
+}
+.video p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: #fff;
+}
+.watch{
+    background: url(image/Rectangle\ 2\ \(1\).png) center/cover no-repeat;
+    width: 870px;
+    height: 330px;
+    text-align: center;
+    margin: 77px auto ;
+    position: relative;
+}
+.watch button{
+    width: 250px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 158%;
+    color: #fff;
+    background: none;
+    padding-left: 21px;
+    margin-top: 120px;
+}
+.watch button::before{
+    content: '';
+    background: url(image/play-button.png) center/cover no-repeat;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 145px;
+    left: 325px;
+}
+
+  
