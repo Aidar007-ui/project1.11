@@ -186,6 +186,102 @@ ul img{
     top: 10px;
     margin-left: -30px;
 }
+.section__center {
+    padding: 100px 150px 85px;
+  }
+  .section__jobs {
+    background: #504dc2;
+    width: 1250px;
+    height: 450px;
+  }
+  .section__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section__top h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    color: #fff;
+  }
+  .section__top button {
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    margin-top: 30px;
+    background: rgb(0, 183, 255);
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+  }
+  .section__imges {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .section__imges img {
+    border-radius: 10px;
+    width: 280px;
+    height: 220px;
+  }
+  .section__imges h6 {
+    margin: 30px 0 30px 30px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .section__imges p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+  }
+  .section__imges a {
+    font-weight: 500;
+    font-size: 16px;
+    color: blue;
+  }
+  .section__border {
+    border: 1px solid gainsboro;
+    width: 900px;
+    height: 0px;
+    margin: 85px 0;
+  }
+.third__section{
+    margin-top: 500px;
+}
+.project__box{
+    background: #f6f6f8;
+    margin-top: 500px;
+    margin-bottom: -500px;
+}
+.project__center{
+    text-align: center;
+    padding: 100px 0;
+}
+.project__center h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+}
+.project__center p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: grey;
+    margin: 50px 0 70px;
+}
+.project__center button{
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    background: blue;
+    color: white;
+    border: none;
+    margin-top: 63px;
+}
 .video{
     background: url(image/Rectangle\ \(3\).png) center/cover no-repeat;
     width: 1250px;
@@ -210,6 +306,7 @@ ul img{
     background: url(image/Rectangle\ 2\ \(1\).png) center/cover no-repeat;
     width: 870px;
     height: 330px;
+    border-radius: 20px;
     text-align: center;
     margin: 77px auto ;
     position: relative;
@@ -237,5 +334,73 @@ ul img{
     top: 145px;
     left: 325px;
 }
-
-  
+.third__border{
+    border: 1px solid gainsboro;
+    width: 1010px;
+    height: 0px;
+    margin:78px 120px;
+}
+.bottom__section{
+    text-align: center;
+}
+.bottom__section h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+.bottom__section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%; 
+    color: grey;
+    margin: 20px 0 30px;
+}
+.bottom__email input{
+    border: 1px solid #f2f2f2;
+    border-radius: 30px 0 0 30px;
+    width: 300px;
+    height: 45px;
+    padding-left: 30px;
+}
+.bottom__email button{
+    border-radius: 0 30px 30px 0;
+    width: 190px;
+    height: 45px;
+    color: white;
+    background: blue;
+    border: none;
+    margin-left: -10px;
+}
+footer{
+    background: #f6f6f8;
+}
+.footer__center{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 200px 0;
+}
+.footer__center h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer__center li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: grey;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.footer__border{
+    border: 1px solid gainsboro;
+    width: 1010px;
+    height: 0px;
+    margin: 70px 120px 30px;
+}
+footer p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 158%;
+    color: grey;
+    padding-bottom: 30px;
+}
